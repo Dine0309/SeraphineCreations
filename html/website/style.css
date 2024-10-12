@@ -1,0 +1,252 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-image: #f0baff;
+    display: flex;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap:250px;
+	padding-top: 50px;
+  }
+  .header {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	 background-color: #7F461B;
+	 padding: 25px 0 20px 0;
+	 z-index: 1;
+	 text-align: center;
+  }
+  .header-text {
+	  font-size: 40px;
+	  font-weight: bold;
+	  margin: 10px 0;
+	  color: #FFFFFF;
+  }
+  .reg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    width: 25vw;
+    padding: 3px;
+    margin-top: 200px;
+    margin-left: 680px;
+	align-items: center;
+  }
+  .reg-container-su {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    width: 25vw;
+    padding: 10px;
+    margin-top: 158px;
+    margin-left: 680px;
+  }
+  .title {
+    text-align: center;
+  }
+  
+  .reg-title {
+    font-size: 44px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .acc,
+  .pass {
+    margin-top: 3px;
+    margin-bottom: 20px;
+	color: #FFFFFF;
+  }
+  .address,
+  .fname  {
+    margin-top: 2px;
+    margin-bottom: 2px;
+	color: #FFFFFF;
+	text-align: center;
+  }
+  .email,
+  .password  {
+    border: 0px solid #7F461B;
+    border-radius: 50px;
+    width: 80%;
+    height: 30px;
+    padding: 3px;
+    font-size: 14px;
+  }
+  .address,
+  .full-name {
+	border: 0px solid #7F461B;
+    border-radius: 50px;
+    width: 80%;
+    height: 30px;
+    padding: 3px;
+    font-size: 17px;
+  }
+  
+  .sign-in-button {
+	  display: flex;
+	  justify-content: center;
+	  width: 440px;
+	  height: 40px;
+	  border: 1px solid #;
+	  border-radius: 0px;
+	  margin-left: 0px;
+  }
+  .sign-in-button-su {
+	  display: flex;
+	  justify-content: center;
+	  width: 440px;
+	  height: 40px;
+	  border: 1px solid #;
+	  border-radius: 0px;
+	  margin-top: 15px;
+	  margin-left: 18px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+  }
+  .or {
+	  font-size: 18px;
+	  color: #ffffff;
+	  font-weight: bold;
+	  margin: 20px 20px;
+	  
+  }
+  
+  button {
+	border: 1px solid #7F461B;
+    border-radius: 40px;
+    height: 60px;
+    width: 120px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+	background-color: #7F461B;
+  }
+  
+  button:hover {
+    background-color: #AF804F;
+  }
+  
+  button:active {
+    background-color: #7F461B;
+    color: white;
+  }
+  .forgot-pass-container {
+	  text-align: center;
+	  margin-bottom: 10px;
+  }
+  
+  .forgot-pass {
+	  font-size: 16px;
+	  text-decoration: none;
+	  color: #622174;
+  }
+  
+  .forgot-pass: hover {
+	  text-decoration: underline;
+  }
+  span.psw {
+    float: right;
+    padding: 0 164px;
+  }
+  span.code {
+    float: right;
+    padding: 0 180px;
+  }
+  .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+	}
+
+	.background img {
+		width: 100%;
+		height: 100vh;
+		object-fit: cover;
+	}
+	.reg-title {
+		font-size: 44px;
+		font-style: Helvetica;
+		margin-top: 40px;
+		margin-bottom: 20px;
+		color: #ffffff;
+	}
+	.social-container {
+	width: 20vw;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	border-radius: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	z-index: 1;
+	margin-left: -480px;
+	margin-top: -100px;
+	}
+	.social-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+	.social-buttons button {
+  border: 1px solid #7F461B;
+  border-radius: 0px;
+  height: 57px;
+  width: 350px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+}
+
+	.social-buttons button:hover {
+  background-color: #AF804F;
+}
+
+	.social-buttons button:active {
+  background-color: #7F461B;
+  color: white;
+}
+  .acc1,
+  .pass1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+	color: #FFFFFF;
+  }
+  .address1,
+  .fname1  {
+    margin-top: 0px;
+    margin-bottom: 30px;
+	color: #FFFFFF;
+	text-align: center;
+  }
